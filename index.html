@@ -920,10 +920,10 @@
 
                 // 1️⃣ Envoi à l'ADMIN
                 emailjs.sendForm("service_m2zkdxk", "template_0468zmx", form) // ADMIN
-                   /*  .then(() => {
+                   .then(() => {
                         // 2️⃣ Envoi à l'UTILISATEUR
                         return emailjs.sendForm("service_m2zkdxk", "template_cg589x3", form); // UTILISATEUR
-                    }) */
+                    })
                     .then(() => {
                         alert("Message envoyé ! Vous recevrez aussi un email de confirmation");
 						form.reset();
